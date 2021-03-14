@@ -3,7 +3,7 @@
 hidl_interface {
     name: "vendor.cygnus.fastcharge@1.0",
     root: "vendor.cygnus",
-    product_specific: true,
+    system_ext_specific: true,
     srcs: [
         "IFastCharge.hal",
     ],
